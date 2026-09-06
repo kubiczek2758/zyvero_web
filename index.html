@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyvero — Communication Reimagined</title>
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar glass">
+        <div class="nav-left">
+            <img src="logo.png" class="nav-logo" alt="Zyvero Logo">
+            <span class="nav-title">Zyvero</span>
+        </div>
+        <div class="nav-right">
+            <span class="nav-tagline">Communication, without the noise.</span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-inner">
+
+            <!-- LEFT -->
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Zyvero — Modern Communication Platform</h1>
+                <p class="hero-subtitle">
+                    Zyvero is a next‑generation messaging platform built for clarity, speed and a clean, dark interface.
+                    Designed for communities, teams and friends who want modern communication without distractions.
+                </p>
+                <div class="hero-actions">
+                    <button class="primary-btn">Launch Zyvero (Coming Soon)</button>
+                    <button class="secondary-btn" id="openTosHero">View Terms</button>
+                </div>
+            </div>
+
+            <!-- RIGHT PREVIEW -->
+            <div class="hero-preview glass fade-in">
+                <div class="hero-preview-header">
+                    <span class="pill">Preview</span>
+                    <span class="hero-preview-title">Zyvero Interface</span>
+                </div>
+
+                <div class="preview-wrapper">
+                    <img src="preview.png" alt="Zyvero Preview" class="preview-image">
+                    <div class="zoom-icon">🔍</div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about fade-up">
+        <h2 class="section-title">What is Zyvero?</h2>
+        <p class="about-text">
+            Zyvero combines real‑time messaging, server‑based communities and private chats in a single,
+            elegant interface. With a dark, neon‑accented design, Zyvero focuses on readability and performance,
+            making conversations feel smooth and organized.
+        </p>
+        <p class="about-text">
+            The platform is built around servers, channels and private chats, with moderation tools,
+            Mod Mail support and a UI optimized for both desktop and web. Zyvero is ideal for roleplay communities,
+            gaming groups, friend circles and small teams that want a modern alternative to traditional chat apps.
+        </p>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features fade-up">
+        <h2 class="section-title">Core Features</h2>
+
+        <div class="feature-grid">
+            <div class="feature-card glass">
+                <h3>Instant Messaging</h3>
+                <p>Real‑time delivery with optimized architecture and low latency.</p>
+            </div>
+
+            <div class="feature-card glass">
+                <h3>Server‑Based Communities</h3>
+                <p>Organize conversations into servers, channels and roles.</p>
+            </div>
+
+            <div class="feature-card glass">
+                <h3>Modern Dark UI</h3>
+                <p>Neon accents, glass‑morphism and a clean layout focused on content.</p>
+            </div>
+
+            <div class="feature-card glass">
+                <h3>Moderation & Mod Mail</h3>
+                <p>Built‑in reporting tools and Mod Mail for handling issues and support.</p>
+            </div>
+
+            <div class="feature-card glass">
+                <h3>Privacy‑Focused</h3>
+                <p>No data selling, clear policies and transparent data handling.</p>
+            </div>
+
+            <div class="feature-card glass">
+                <h3>Cross‑Platform Ready</h3>
+                <p>Designed for desktop and web, with future mobile support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="social fade-up">
+        <h2 class="section-title">Join the Zyvero Community</h2>
+        <p class="social-text">
+            Stay connected with Zyvero across platforms. Follow updates, feature drops and community events.
+        </p>
+
+        <div class="social-grid">
+            <a href="#" class="social-card glass">
+                <span class="social-label">Discord</span>
+                <span class="social-sub">Community servers & support</span>
+            </a>
+            <a href="#" class="social-card glass">
+                <span class="social-label">TikTok</span>
+                <span class="social-sub">Short updates & UI previews</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- LEGAL -->
+    <section class="legal-links fade-up">
+        <h2 class="section-title">Legal</h2>
+        <p class="legal-description">
+            To keep Zyvero safe and transparent, we provide clear Terms of Service and a detailed Privacy Policy.
+        </p>
+        <div class="legal-buttons">
+            <button id="openTos" class="legal-btn">Terms of Service</button>
+            <button id="openPrivacy" class="legal-btn">Privacy Policy</button>
+        </div>
+    </section>
+
+    <!-- LEGAL MODAL -->
+    <div id="modalOverlay" class="modal-overlay hidden">
+        <div class="modal glass">
+            <div class="modal-header">
+                <h3 id="modalTitle">Legal</h3>
+                <button id="closeModal" class="modal-close">×</button>
+            </div>
+            <div class="modal-content">
+                <pre id="modalText"></pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- IMAGE ZOOM MODAL -->
+    <div id="imageZoomOverlay" class="image-zoom-overlay hidden">
+        <img id="zoomedImage" class="zoomed-image">
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Zyvero — All rights reserved</p>
+    </footer>
+
+</body>
+</html>
