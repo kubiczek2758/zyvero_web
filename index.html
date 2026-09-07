@@ -15,128 +15,155 @@
     <nav class="navbar glass">
         <div class="nav-left">
             <img src="logo.png" class="nav-logo" alt="Zyvero Logo">
-            <span class="nav-title">Zyvero</span>
+            <div class="nav-text">
+                <span class="nav-title">Zyvero</span>
+                <span class="nav-subtitle">Modern communication platform</span>
+            </div>
         </div>
         <div class="nav-right">
-            <span class="nav-tagline">Communication, without the noise.</span>
+            <button class="nav-cta" id="openTosNav">View Terms</button>
         </div>
     </nav>
 
-    <!-- HERO -->
-    <header class="hero">
-        <div class="hero-inner">
+    <!-- MAIN WRAPPER -->
+    <main class="page">
 
-            <!-- LEFT -->
-            <div class="hero-content fade-in">
-                <h1 class="hero-title">Zyvero — Modern Communication Platform</h1>
-                <p class="hero-subtitle">
-                    Zyvero is a next‑generation messaging platform built for clarity, speed and a clean, dark interface.
-                    Designed for communities, teams and friends who want modern communication without distractions.
-                </p>
-                <div class="hero-actions">
-                    <button class="primary-btn">Launch Zyvero (Coming Soon)</button>
-                    <button class="secondary-btn" id="openTosHero">View Terms</button>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-inner">
+
+                <!-- LEFT -->
+                <div class="hero-content fade-in">
+                    <div class="hero-label-row">
+                        <span class="hero-pill">New</span>
+                        <span class="hero-label">Zyvero Preview</span>
+                    </div>
+
+                    <h1 class="hero-title">Communication, without the noise.</h1>
+                    <p class="hero-subtitle">
+                        Zyvero is a next‑generation messaging platform built for clarity, speed and a clean, dark interface.
+                        Designed for communities, teams and friends who want modern communication without distractions.
+                    </p>
+
+                    <div class="hero-actions">
+                        <button class="primary-btn">Launch Zyvero (Coming Soon)</button>
+                        <button class="secondary-btn" id="openTosHero">View Terms</button>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span class="hero-meta-item">Servers • Channels • Roles</span>
+                        <span class="hero-meta-dot">•</span>
+                        <span class="hero-meta-item">Privacy‑focused</span>
+                        <span class="hero-meta-dot">•</span>
+                        <span class="hero-meta-item">Cross‑platform ready</span>
+                    </div>
                 </div>
-            </div>
 
-            <!-- RIGHT PREVIEW -->
-            <div class="hero-preview glass fade-in">
-                <div class="hero-preview-header">
-                    <span class="pill">Preview</span>
-                    <span class="hero-preview-title">Zyvero Interface</span>
+                <!-- RIGHT PREVIEW -->
+                <div class="hero-preview glass fade-in">
+                    <div class="hero-preview-header">
+                        <span class="pill">Interface Preview</span>
+                        <span class="hero-preview-title">Zyvero UI Snapshot</span>
+                    </div>
+
+                    <div class="preview-wrapper">
+                        <img src="preview.png" alt="Zyvero Preview" class="preview-image">
+                        <div class="zoom-icon">🔍</div>
+                    </div>
+
+                    <p class="preview-caption">
+                        This preview showcases the core layout of Zyvero — server list, channels, chat area and user panel,
+                        all in a focused dark UI.
+                    </p>
                 </div>
 
-                <div class="preview-wrapper">
-                    <img src="preview.png" alt="Zyvero Preview" class="preview-image">
-                    <div class="zoom-icon">🔍</div>
-                </div>
             </div>
+        </section>
 
-        </div>
-    </header>
+        <!-- ABOUT -->
+        <section class="about fade-up">
+            <h2 class="section-title">What is Zyvero?</h2>
+            <p class="about-text">
+                Zyvero combines real‑time messaging, server‑based communities and private chats in a single,
+                elegant interface. With a dark, neon‑accented design, Zyvero focuses on readability and performance,
+                making conversations feel smooth and organized.
+            </p>
+            <p class="about-text">
+                The platform is built around servers, channels and private chats, with moderation tools,
+                Mod Mail support and a UI optimized for both desktop and web. Zyvero is ideal for roleplay communities,
+                gaming groups, friend circles and small teams that want a modern alternative to traditional chat apps.
+            </p>
+        </section>
 
-    <!-- ABOUT -->
-    <section class="about fade-up">
-        <h2 class="section-title">What is Zyvero?</h2>
-        <p class="about-text">
-            Zyvero combines real‑time messaging, server‑based communities and private chats in a single,
-            elegant interface. With a dark, neon‑accented design, Zyvero focuses on readability and performance,
-            making conversations feel smooth and organized.
-        </p>
-        <p class="about-text">
-            The platform is built around servers, channels and private chats, with moderation tools,
-            Mod Mail support and a UI optimized for both desktop and web. Zyvero is ideal for roleplay communities,
-            gaming groups, friend circles and small teams that want a modern alternative to traditional chat apps.
-        </p>
-    </section>
+        <!-- FEATURES -->
+        <section class="features fade-up">
+            <h2 class="section-title">Core Features</h2>
 
-    <!-- FEATURES -->
-    <section class="features fade-up">
-        <h2 class="section-title">Core Features</h2>
+            <div class="feature-grid">
+                <article class="feature-card glass">
+                    <h3>Instant Messaging</h3>
+                    <p>Real‑time delivery with optimized architecture and low latency.</p>
+                </article>
 
-        <div class="feature-grid">
-            <div class="feature-card glass">
-                <h3>Instant Messaging</h3>
-                <p>Real‑time delivery with optimized architecture and low latency.</p>
+                <article class="feature-card glass">
+                    <h3>Server‑Based Communities</h3>
+                    <p>Organize conversations into servers, channels and roles.</p>
+                </article>
+
+                <article class="feature-card glass">
+                    <h3>Modern Dark UI</h3>
+                    <p>Neon accents, glass‑morphism and a clean layout focused on content.</p>
+                </article>
+
+                <article class="feature-card glass">
+                    <h3>Moderation & Mod Mail</h3>
+                    <p>Built‑in reporting tools and Mod Mail for handling issues and support.</p>
+                </article>
+
+                <article class="feature-card glass">
+                    <h3>Privacy‑Focused</h3>
+                    <p>No data selling, clear policies and transparent data handling.</p>
+                </article>
+
+                <article class="feature-card glass">
+                    <h3>Cross‑Platform Ready</h3>
+                    <p>Designed for desktop and web, with future mobile support.</p>
+                </article>
             </div>
+        </section>
 
-            <div class="feature-card glass">
-                <h3>Server‑Based Communities</h3>
-                <p>Organize conversations into servers, channels and roles.</p>
+        <!-- SOCIAL -->
+        <section class="social fade-up">
+            <h2 class="section-title">Join the Zyvero Community</h2>
+            <p class="social-text">
+                Stay connected with Zyvero across platforms. Follow updates, feature drops and community events.
+            </p>
+
+            <div class="social-grid">
+                <a href="#" class="social-card glass">
+                    <span class="social-label">Discord</span>
+                    <span class="social-sub">Community servers & support</span>
+                </a>
+                <a href="#" class="social-card glass">
+                    <span class="social-label">TikTok</span>
+                    <span class="social-sub">Short updates & UI previews</span>
+                </a>
             </div>
+        </section>
 
-            <div class="feature-card glass">
-                <h3>Modern Dark UI</h3>
-                <p>Neon accents, glass‑morphism and a clean layout focused on content.</p>
+        <!-- LEGAL -->
+        <section class="legal-links fade-up">
+            <h2 class="section-title">Legal</h2>
+            <p class="legal-description">
+                To keep Zyvero safe and transparent, we provide clear Terms of Service and a detailed Privacy Policy.
+            </p>
+            <div class="legal-buttons">
+                <button id="openTos" class="legal-btn">Terms of Service</button>
+                <button id="openPrivacy" class="legal-btn">Privacy Policy</button>
             </div>
+        </section>
 
-            <div class="feature-card glass">
-                <h3>Moderation & Mod Mail</h3>
-                <p>Built‑in reporting tools and Mod Mail for handling issues and support.</p>
-            </div>
-
-            <div class="feature-card glass">
-                <h3>Privacy‑Focused</h3>
-                <p>No data selling, clear policies and transparent data handling.</p>
-            </div>
-
-            <div class="feature-card glass">
-                <h3>Cross‑Platform Ready</h3>
-                <p>Designed for desktop and web, with future mobile support.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- SOCIAL -->
-    <section class="social fade-up">
-        <h2 class="section-title">Join the Zyvero Community</h2>
-        <p class="social-text">
-            Stay connected with Zyvero across platforms. Follow updates, feature drops and community events.
-        </p>
-
-        <div class="social-grid">
-            <a href="#" class="social-card glass">
-                <span class="social-label">Discord</span>
-                <span class="social-sub">Community servers & support</span>
-            </a>
-            <a href="#" class="social-card glass">
-                <span class="social-label">TikTok</span>
-                <span class="social-sub">Short updates & UI previews</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- LEGAL -->
-    <section class="legal-links fade-up">
-        <h2 class="section-title">Legal</h2>
-        <p class="legal-description">
-            To keep Zyvero safe and transparent, we provide clear Terms of Service and a detailed Privacy Policy.
-        </p>
-        <div class="legal-buttons">
-            <button id="openTos" class="legal-btn">Terms of Service</button>
-            <button id="openPrivacy" class="legal-btn">Privacy Policy</button>
-        </div>
-    </section>
+    </main>
 
     <!-- LEGAL MODAL -->
     <div id="modalOverlay" class="modal-overlay hidden">
@@ -158,7 +185,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>Zyvero</p>
+        <p>© 2026 Zyvero — All rights reserved</p>
     </footer>
 
 </body>

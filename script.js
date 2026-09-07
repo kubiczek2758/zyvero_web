@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
     /* Fade-up animations */
     const animatedElements = document.querySelectorAll(".fade-up");
     const observer = new IntersectionObserver(entries => {
@@ -24,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const openTosBtn = document.getElementById("openTos");
     const openPrivacyBtn = document.getElementById("openPrivacy");
     const openTosHeroBtn = document.getElementById("openTosHero");
+    const openTosNavBtn = document.getElementById("openTosNav");
 
     /* Image Zoom */
     const previewImage = document.querySelector(".preview-image");
@@ -152,21 +152,19 @@ If you have questions about this Privacy Policy or your data, please open a Mod 
 
     /* Buttons */
     if (openTosBtn) {
-        openTosBtn.addEventListener("click", () => {
-            openModal("Terms of Service", tosContent);
-        });
+        openTosBtn.addEventListener("click", () => openModal("Terms of Service", tosContent));
     }
 
     if (openTosHeroBtn) {
-        openTosHeroBtn.addEventListener("click", () => {
-            openModal("Terms of Service", tosContent);
-        });
+        openTosHeroBtn.addEventListener("click", () => openModal("Terms of Service", tosContent));
+    }
+
+    if (openTosNavBtn) {
+        openTosNavBtn.addEventListener("click", () => openModal("Terms of Service", tosContent));
     }
 
     if (openPrivacyBtn) {
-        openPrivacyBtn.addEventListener("click", () => {
-            openModal("Privacy Policy", privacyContent);
-        });
+        openPrivacyBtn.addEventListener("click", () => openModal("Privacy Policy", privacyContent));
     }
 
     if (closeModalBtn) {
@@ -191,5 +189,4 @@ If you have questions about this Privacy Policy or your data, please open a Mod 
             }
         }
     });
-
 });
